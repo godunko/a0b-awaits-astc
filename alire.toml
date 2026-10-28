@@ -1,12 +1,14 @@
 name = "a0b_awaits_ada"
-description = "A0B: Await on Ada.Synchronous_Task_Control"
 version = "0.1.0-dev"
+website = "https://github.com/godunko/a0b-awaits-ada"
+description = "A0B: Await on Ada.Synchronous_Task_Control"
 
 authors = ["Vadim Godunko"]
 maintainers = ["Vadim Godunko <vgodunko@gmail.com>"]
 maintainers-logins = ["godunko"]
 licenses = "Apache-2.0 WITH LLVM-exception"
-tags = ["a0b", "await", "embedded"]
+tags = ["a0b", "await", "embedded", "tasking"]
+provides = ["a0b_awaits=0.1.0"]
 
 [configuration]
 generate_ada = false
