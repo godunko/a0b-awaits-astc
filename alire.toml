@@ -2,6 +2,9 @@ name = "a0b_awaits_ada"
 version = "0.1.0-dev"
 website = "https://github.com/godunko/a0b-awaits-ada"
 description = "A0B: Await on Ada.Synchronous_Task_Control"
+long-description = """
+A0B: Portable wait and synchronization primitives for Ada applications running on standard GNAT tasking runtimes.
+"""
 
 authors = ["Vadim Godunko"]
 maintainers = ["Vadim Godunko <vgodunko@gmail.com>"]
